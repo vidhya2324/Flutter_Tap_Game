@@ -1,0 +1,619 @@
+/// Restrauted code menu
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MainApp());
+}
+
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Restuarant Menu"),
+          backgroundColor: Colors.orange,
+          centerTitle: false,
+        ),
+        body: ListView(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "chicken Noodles",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious Chicken noodles with spices"),
+                  Text("29.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                  
+                ],
+               
+              ),
+            ),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Fried Rice",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Veg fried rice with soy sauce"),
+                  Text("46.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+
+            //third column
+
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "chicken Biriyani",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious Chicken biriyani with spices"),
+                  Text("29.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+
+            //fourth column
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "chicken kulambu",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious Chicken gravy with spices"),
+                  Text("67.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+
+            //fifth column
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "chicken Noodles",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious Chicken noodles with spices"),
+                  Text("29.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+
+            //sixth columns
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "chicken Noodles",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious Chicken noodles with spices"),
+                  Text("29.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+
+            //7th columns
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "chicken Noodles",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious Chicken noodles with spices"),
+                  Text("29.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+
+            //7th column
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "chicken Noodles",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious Chicken noodles with spices"),
+                  Text("29.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+
+            //8th columns
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Colors.white,
+                boxShadow: [
+                  BoxShadow(
+                    spreadRadius: 2,
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+
+              height: 90,
+              width: double.infinity,
+              margin: EdgeInsets.all(10),
+              padding: EdgeInsets.all(10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "chicken Noodles",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text("Delicious Chicken noodles with spices"),
+                  Text("29.06", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+          ],  
+        ), 
+      ),
+    );
+  }
+}
+
+
+///Todolist code:
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MainApp());
+}
+
+class MainApp extends StatefulWidget {
+  @override
+  State<MainApp> createState() => _MainAppState();
+}
+
+class _MainAppState extends State<MainApp> {
+  String displayText = "No Text Data";
+  List<String> taskList = [];
+  TextEditingController textcontroller = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text(
+            "Todo List App",
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          backgroundColor: Colors.blue,
+          centerTitle: false,
+        ),
+        body: Column(
+          children: [
+            Row(
+              children: [
+                Expanded(
+                  child: Container(
+                    padding: EdgeInsets.all(10),
+                    child: TextField(
+                      controller: textcontroller,
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(),
+                        label: Text("Enter a task"),
+                      ),
+                      onSubmitted: (value) {
+                        if (value.trim().isNotEmpty) {
+                          setState(() {
+                            taskList.add(value);
+                            textcontroller.clear();
+                          });
+                        }
+                      },
+                    ),
+                  ),
+                ),
+                MaterialButton(
+                  color: Colors.white,
+                  height: 50,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  onPressed: () {
+                    setState(() {
+                      //displayText = textcontroller.text;
+                      taskList.add(textcontroller.text);
+                      textcontroller.clear();
+                    });
+                  },
+                  child: Text("Add"),
+                ),
+              ],
+            ),
+
+            Expanded(
+              child: ListView.builder(
+                itemCount: taskList.length,
+                itemBuilder: (context, index) {
+                  return Row(
+                    children: [
+                      Expanded(
+                        child: Container(
+                          padding: EdgeInsets.all(10),
+                          child: Text(taskList[index]),
+                        ),
+                      ),
+
+                      MaterialButton(
+                        child: Icon(Icons.delete, color: Colors.red),
+                        onPressed: () {
+                          setState(() {
+                            taskList.removeAt(index);
+                          });
+                        },
+                      ),
+                    ],
+                  );
+                },
+              ),
+            ),
+
+            // Text(displayText),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+
+///Calculator app
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MainApp());
+}
+
+class MainApp extends StatefulWidget {
+  MainApp({super.key});
+
+  @override
+  State<MainApp> createState() => _MainAppState();
+}
+
+class _MainAppState extends State<MainApp> {
+  String inputvalue = "";
+  String calculatedvalue = "";
+  String operator = "";
+  double size = 0;
+  @override
+  Widget build(BuildContext context) {
+    double size = MediaQuery.of(context).size.width / 5;
+
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.black,
+        body: ListView(
+          children: [
+            Container(
+              alignment: Alignment.bottomRight,
+              child: Text(
+                inputvalue,
+                style: TextStyle(color: Colors.white, fontSize: 100),
+              ),
+            ),
+            Column(
+              children: [
+                Row(
+                  children: [
+                    calcButton("7", Colors.white54, size),
+                    calcButton("8", Colors.white54, size),
+                    calcButton("9", Colors.white54, size),
+                    calcButton("/", Colors.orange, size),
+                  ],
+                ),
+                Row(
+                  children: [
+                    calcButton("4", Colors.white38, size),
+                    calcButton("5", Colors.white38, size),
+                    calcButton("6", Colors.white38, size),
+                    calcButton("*", Colors.orange, size),
+                  ],
+                ),
+                Row(
+                  children: [
+                    calcButton("1", Colors.white38, size),
+                    calcButton("2", Colors.white38, size),
+                    calcButton("3", Colors.white38, size),
+                    calcButton("-", Colors.orange, size),
+                  ],
+                ),
+
+                Row(
+                  children: [
+                    calcButton("0", Colors.white38, size),
+                    calcButton(".", Colors.white38, size),
+                    calcButton("=", Colors.orange, size),
+                    calcButton("+", Colors.orange, size),
+                  ],
+                ),
+              ],
+            ),
+            calcButton("Clear", Colors.black, size),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget calcButton(String text, Color bgColor, double size) {
+    return InkWell(
+      onTap: () {
+        if (text == "Clear") {
+          setState(() {
+            inputvalue = "";
+            calculatedvalue = "";
+            operator = "";
+          });
+        } else if (text == "+" || text == "-" || text == "*" || text == "/") {
+          setState(() {
+            // inputvalue = inputvalue + text;
+            calculatedvalue = inputvalue;
+            inputvalue = "";
+            operator = text;
+          });
+        } else if (text == "=") {
+          setState(() {
+            double calc = double.parse(calculatedvalue);
+            double input = double.parse(inputvalue);
+
+            if (operator == "+") {
+              inputvalue = (calc + input).toString();
+            } else if (operator == "-") {
+              inputvalue = (calc - input).toString();
+            } else if (operator == "*") {
+              inputvalue = (calc * input).toString();
+            } else if (operator == "/") {
+              inputvalue = (calc / input).toString();
+            }
+          });
+        } else {
+          setState(() {
+            inputvalue = inputvalue + text;
+          });
+        }
+      },
+      child: Container(
+        decoration: BoxDecoration(
+          color: bgColor,
+          borderRadius: BorderRadius.circular(100),
+        ),
+        margin: EdgeInsets.all(10),
+        height: size,
+        width: size,
+        alignment: Alignment.center,
+        child: Text(text, style: TextStyle(color: Colors.white, fontSize: 30)),
+      ),
+    );
+  }
+}
+
+
+///Push and POP code by using the navigator
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: MainPage()));
+}
+
+class MainPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("Main Page")),
+      body: MaterialButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) =>
+                  SecondPage("Hello AnuVidhya!!", "Welcome to Second page"),
+            ),
+          );
+        },
+        color: Colors.blue,
+        child: Text("Go to Second Page"),
+      ),
+    );
+  }
+}
+
+class SecondPage extends StatelessWidget {
+  String label = "";
+  String greetings = "";
+
+  SecondPage(this.label, this.greetings);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(backgroundColor: Colors.red, title: Text("Second Page")),
+      body: Center(
+        child: Column(
+          children: [
+            Text(label),
+            Text(greetings),
+
+            MaterialButton(
+              color: Colors.red,
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text("Go back (POP)"),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+
+
